@@ -31,8 +31,11 @@ class Navbar extends Component {
                             </li>
                         )
                     })}
+                    <div className="search">
+                        <input type="text" />
+                        <SearchIcon />
+                    </div>
                 </ul>
-                <SearchIcon />
                 <Button>Login</Button>
             </nav>
         )

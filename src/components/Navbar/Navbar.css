@@ -92,7 +92,7 @@
     }
 
     .nav-links:hover{
-        background-color: #7577fa;
+        background-color: #3598f5;
         border-radius:0;
 
     }
@@ -141,4 +141,19 @@
     Button{
         display: none;
     }
+}
+
+.search{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 30px;
+    color: gray;
+    background-color: #eef3f8;
+}
+.search > input{
+    outline: none;
+    border: none;
+    background: none;
 }
