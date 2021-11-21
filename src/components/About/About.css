@@ -1,0 +1,17 @@
+.about{
+    background-color: #db4156;
+    text-align: right;
+}
+
+.about > p {
+    margin-left: 2rem;
+    color: white;
+}
+
+.fa-phone-alt{
+    font-weight: 900;
+}
+
+.fa-envelope{
+    font-weight: 900;
+}
